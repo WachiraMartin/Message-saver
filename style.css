@@ -1,0 +1,46 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+ background-color: yellow;
+ height: 8cm;
+ width: 10cm;
+ border: 2px solid blueviolet;
+}
+.msg{
+  margin-left: 80px;
+  text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+.type{
+  height: 1cm;
+  margin-top: 15px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: whitesmoke;
+  font-size: 1rem;
+  border: 2px solid blueviolet;
+}
+.sub{
+  margin-left: 130px;
+  font-size: 1rem;
+  height: 0.8cm;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.486);
+  cursor: pointer;
+}
+.saved{
+  margin-left: 100px;
+  padding-left: 12px;
+  border-left: 3px solid blueviolet;
+}
+.del{
+  margin-left: 100px;
+  background-color: rgba(0, 0, 0, 0.548);
+  cursor: pointer;
+}
